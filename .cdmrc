@@ -1,0 +1,4 @@
+tabs:
+  ['src/App.jsx', 'src/components/Quote.jsx', 'src/components/DigitalClock.jsx']
+terminals: ['bun install && bun run dev']
+run-button: bun run dev
