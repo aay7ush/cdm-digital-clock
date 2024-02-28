@@ -1,6 +1,6 @@
-import { Quote } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import DigitalClock from './components/DigitalClock'
+import Quote from './components/Quote'
 
 const App = () => {
   const [backgroundImage, setBackgroundImage] = useState('')
