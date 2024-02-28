@@ -1,5 +1,6 @@
 import { Quote } from 'lucide-react'
 import { useEffect, useState } from 'react'
+import DigitalClock from './components/DigitalClock'
 
 const App = () => {
   const [backgroundImage, setBackgroundImage] = useState('')
@@ -23,7 +24,7 @@ const App = () => {
       <div className="bg-mask" />
       <article className="p-10 lg:p-20 text-white min-h-screen grid content-between text-2xl relative z-20">
         <Quote />
-        {/* <DigitalClock /> */}
+        <DigitalClock />
       </article>
     </main>
   )
