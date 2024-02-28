@@ -1,3 +1,4 @@
+import { Quote } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
     <main style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="bg-mask" />
       <article className="p-10 lg:p-20 text-white min-h-screen grid content-between text-2xl relative z-20">
-        {/* <Quote /> */}
+        <Quote />
         {/* <DigitalClock /> */}
       </article>
     </main>
